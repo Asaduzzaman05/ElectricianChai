@@ -1,0 +1,109 @@
+
+.navbar{
+    height:60px ;
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    float: left;
+}
+
+.back{
+    height: 680px;
+    width: 98%;
+    background-image: url(./image/2.jpg);
+   
+    float: left ;
+    
+}
+
+.upper-head{
+    height: 150px;
+    width: 100%;
+   
+   
+}
+
+.middel{
+    height: auto;
+    position: relative;
+    
+   
+}
+
+.last{
+   
+    float: left;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.footer{
+   
+  
+  
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+}
+
+.mainbody{
+
+    height: 1300px;
+    width: 100%;
+    position: relative;
+  
+    
+}
+
+
+.feature{
+   /*  background-image: url(./image/back.jpg); */
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(rgb(247, 147, 147), yellow, rgb(114, 230, 114));
+    border: 2px solid black;
+}
+
+.zoom{
+ 
+    transition: transform .2s; 
+    height: 200px;
+    width: 300px;
+}
+
+.zoom:hover {
+    transform: scale(1.2); 
+  }
+.zoom1{
+ 
+   
+    height: 200px;
+    width: 350px;
+}
+
+
+
+.feature-footer{
+    background-image: url(./image/elc.jpg);
+    background-size: cover;
+}
+.card{
+    height: 420px;
+    margin-top: 10px;
+}
+
+.expert{
+    height: auto;
+ 
+    width: 100%;
+    background-color: rgb(187, 151, 221);
+}
+

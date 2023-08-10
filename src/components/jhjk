@@ -1,0 +1,85 @@
+        <div id="accordion">
+  <div className="card">
+    <div className="card-header" id="headingOne">
+      <h5 className="mb-0">
+        <button className="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        When is diagnosis charge applicable ?
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div className="card-body">
+      If you not interested to take the service after proper diagnosis, then only diagnosis charge is applicable. However, if the customer agrees to avail this service then this diagnosis charge is not applicable.
+      </div>
+    </div>
+  </div>
+  <div className="card">
+    <div className="card-header" id="headingTwo">
+      <h5 className="mb-0">
+        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          
+        Does service charge include accessories cost?
+      
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div className="card-body">
+      No. Service charge does not include additional accessories cost.
+       </div>
+    </div>
+  </div>
+  <div className="card">
+    <div className="card-header" id="headingThree">
+      <h5 className="mb-0">
+        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          
+        When transportation cost is applicable?
+      
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div className="card-body">
+      If the service provider have to purchase materials from outside during task completion only then transportation cost is applicable.
+     </div>
+    </div>
+  </div>
+  <div className="card">
+    <div className="card-header" id="headingThree">
+      <h5 className="mb-0">
+        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          
+        
+        Do I have to pay any charge if I don't take any service?
+      
+      
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div className="card-body">
+      If you don’t avail any service after provided technician reaches at your doorstep then you only have to pay the visiting charge which is BDT 100. 
+      </div>
+    </div>
+  </div>
+  <div className="card">
+    <div className="card-header" id="headingThree">
+      <h5 className="mb-0">
+        <button className="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          
+        
+        Do you give Materials/Parts warranty?
+      
+      
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div className="card-body">
+      No. We do not manufacture electrical appliances by ourselves. So, the warranty differs as per manufacturer. However, we give you 7 days of free service warranty.
+       </div>
+    </div>
+  </div>
+</div>
